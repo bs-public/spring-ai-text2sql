@@ -1,0 +1,7 @@
+### Query Request
+POST http://localhost:8080/query
+Content-Type: application/json
+
+{
+  "text": "Find the details of all admin users"
+}

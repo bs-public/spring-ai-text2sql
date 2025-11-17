@@ -1,0 +1,23 @@
+{
+  "sqlQuery": "SELECT * FROM users WHERE LOWER(role) = LOWER('admin')",
+  "results": [
+    {
+      "ID": 1,
+      "CREATED_AT": "2025-11-09",
+      "EMAIL": "user1@example.com",
+      "ROLE": "ADMIN"
+    },
+    {
+      "ID": 5,
+      "CREATED_AT": "2025-11-13",
+      "EMAIL": "user5@example.com",
+      "ROLE": "ADMIN"
+    },
+    {
+      "ID": 9,
+      "CREATED_AT": "2025-11-17",
+      "EMAIL": "user9@example.com",
+      "ROLE": "ADMIN"
+    }
+  ]
+}
